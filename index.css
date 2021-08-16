@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+    background: url("table.png");
+    background-size: cover;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+h3 {
+    margin: 3em;
+}
+
+button {
+    background: goldenrod;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#image1, #image2 {
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#image2 {
+    margin-top: 8px;
+}
+
+#draw-cards {
+    padding: 5px;
+    align-self: stretch;
+}
+
+.top {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.top > h4 {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.draw-cards {
+    cursor: not-allowed;
+    color: grey;
+}
